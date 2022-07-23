@@ -14,12 +14,17 @@
 // n을 x로 나눈 나머지가 1이 되는 수 중에서 가장 작은수 를 구한다.
 // 1 부터 n 까지 모든 수를 다 나눠서 나머지를 비교하다가 최초로 1이 나오면 그걸 밷으면 될듯
 
+
+
 function solution(n) {
+
+    let answar = 0;
     for (let x = 1; x < n; x++) {
         if (n % x === 1) {
-            return  x;
+            answar = x
         }
     }
+    return  answar;
 }
 
 console.log(solution(10));
