@@ -1,5 +1,5 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/87389
-// 1 min
+// 2 min
 
 function solution(n) {
     var answer = 0;
@@ -9,8 +9,6 @@ function solution(n) {
             return i;
         }
     }
-
-    return answer;
 }
 
 // testcase
