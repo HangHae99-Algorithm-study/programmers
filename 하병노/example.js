@@ -41,6 +41,6 @@ function challenge1(n) {
 // 도전 2
 // n 과 N 을 매개변수로 받아 2단 부터 9단 중 n단 부터 N단 까지를 출력하는 함수를 작성해보세요.
 
-function challenge1(n,N) {
+function challenge2(n,N) {
 
 }
