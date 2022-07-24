@@ -11,6 +11,7 @@ function solution(n) {
         // if there is 1 as reminder
         if(n%i == 1){
             // return i index value & exit from function
+            // Time complexity would be O(n)
             return i;
         }
     }
