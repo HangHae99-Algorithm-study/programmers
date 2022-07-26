@@ -42,17 +42,17 @@ function solution(N, stages) {
 	// =====================================================================
 	// 1361.21ms, 39.4MB -> 더 느리다
 	// 참고한 풀이
-	// answer.push([index, fail_rate])
-	//
-	// for (let i = 0; i < N; i++) {
-	// 	const count = stages.filter((item) => item === i + 1).length;
-	// 	answer.push([i + 1, count / stages_player]);
-	// 	stages_player -= count;
-	// }
+	// answer.push([index, fail_rate]) -> 배열로 answer에 넣음
+	
+	for (let i = 0; i < N; i++) {
+		const count = stages.filter((item) => item === i + 1).length;
+		answer.push([i + 1, count / stages_player]);
+		stages_player -= count;
+	}
 
-	// // fail_rate 기준 내림차순 정렬
-	// answer = answer.sort((a, b) => b[1] - a[1]);
-	// answer = answer.map((item) => item[0]);
+	// fail_rate 기준 내림차순 정렬
+	answer = answer.sort((a, b) => b[1] - a[1]);
+	answer = answer.map((item) => item[0]);
 
 	return answer;
 }
