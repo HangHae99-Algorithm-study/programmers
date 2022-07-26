@@ -27,14 +27,30 @@
 // hint! for문으로 작성해봅시다
 
 
+for(let i=2; i<10 ; i++) {
+    for(let j=1; j<10; j++) {
+        console.log(`${i} x ${j} = ${i*j}`)
+        // reutrn `${i} x ${j} = ${i*j}`
+    }
+    console.log()
+}
 
 
 // 도전 1
 // n을 매개변수로 받아 2단 부터 9단 중 n단 만 출력하는 함수를 작성해보세요.
 
 function challenge1(n) {
-
+    // let arr = [];
+    for (let i = n; i < n + 1; i++) {
+        for (let j = 1; j < 10; j++) {
+            console.log(`${i} x ${j} = ${i * j}`);
+            // arr.push(`${i} x ${j} = ${i * j}`);
+        }
+    }
+    // return arr;
 }
+
+challenge1(7)
 
 
 
