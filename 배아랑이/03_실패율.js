@@ -11,14 +11,14 @@ function solution(N, stages) {
 	for (let i = 0; i < N; i++) {
 		var count = 0;
 
-		// 해당 스테이지에 도달한 플레이어 수
+		// count = 해당 스테이지를 통과하지 못한 플레이어 수
 		for (let j = 0; j < stages.length; j++) {
 			if (stages[j] === i + 1) {
 				count++;
 			}
 		}
 
-		// stages_player === 0 -> fail_rate = 0
+		// 남아있는 플레이어 수가 0이면 실패율을 0으로 정함.
 		if (stages_player <= 0) {
 			fail_rate.push(0);
 		} else {
@@ -26,7 +26,7 @@ function solution(N, stages) {
 			stages_player -= count;
 		}
 	}
-	// console.log(fail_rate);
+	console.log(fail_rate);
 
 	for (let i = 0; i < fail_rate.length; i++) {
 		const max_idx = fail_rate.indexOf(Math.max(...fail_rate));
@@ -42,7 +42,8 @@ function solution(N, stages) {
 	// =====================================================================
 	// 1361.21ms, 39.4MB -> 더 느리다
 	// 참고한 풀이
-	// answer.push([index, fail_rate])
+	// answer.push([index, fail_rate]) -> 배열로 answer에 넣음
+	
 	for (let i = 0; i < N; i++) {
 		const count = stages.filter((item) => item === i + 1).length;
 		answer.push([i + 1, count / stages_player]);
