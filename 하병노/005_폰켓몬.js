@@ -35,7 +35,8 @@ function solution(nums) {
   let arr = [...new Set(nums)];   // 중복 값 제거
 
   console.log('중복된 종류의 포켓몬을 모두 제거 하면', arr, '이고', `폰켓몬의 종류는 ${arr.length} 종 임을 알 수 있다.`)
-  console.log(`포켓몬의 종류(${arr.length}종) > 최대로 가져갈 수 있는 포켓몬수 N/2(${max}마리)  :  ` , arr.length > max)
+  console.log(`포켓몬의 종류(${arr.length}종) > 최대로 가져갈 수 있는 포켓몬수 N/2(${max}마리)`)
+  console.log( arr.length > max ? `가져갈 수 있는 포켓몬의 종류가 ${arr.length}마리 인데, 내가 선택 할 수있는 최대한의 종류는 ${max}종 이므로 ${max}마리 이상 가져갈 수 없다 `:`가져갈 수 있는 포켓몬의 종류가 ${arr.length}마리이다. 내가 선택 할 수있는 최대한의 종류는 ${max}마리, 따라서 ${arr.length}종 이상 가져갈수는 없으니 답은 ${arr.length}마리`)
 
   return arr.length > max ? max : arr.length  
 
