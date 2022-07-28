@@ -23,27 +23,24 @@
 // let num1 = 30
 // let num2 = 9
 // console.log(num1.toString(2))
-console.log((46|27).toString(2))
+// console.log((46|27).toString(2))
 // console.log(num2.toString(2).padStart(5, 0))
-
-console.log(Boolean(1))
-console.log(Boolean(0))
 
 function solution(n, arr1, arr2) {
 
-    let biArr1 = [];  
-    let biArr2 = [];
+    // let biArr1 = [];  
+    // let biArr2 = [];
 
     let conArr = []
     let ansArr = []
 
     // console.log(arr1[0])
-    for (let i = 0; i < arr1.length ; i++) {
-        biArr1.push(arr1[i].toString(2).padStart(n,0))
-        biArr2.push(arr2[i].toString(2).padStart(n,0))
-    }
-    console.log(biArr1)
-    console.log(biArr2)
+    // for (let i = 0; i < arr1.length ; i++) {
+    //     biArr1.push(arr1[i].toString(2).padStart(n,0))
+    //     biArr2.push(arr2[i].toString(2).padStart(n,0))
+    // }
+    // console.log(biArr1)
+    // console.log(biArr2)
     
     // 음 여기까지 삽질이군
 
@@ -53,24 +50,35 @@ function solution(n, arr1, arr2) {
     for (let i =0; i< n; i++) {
         conArr.push(arr1[i] | arr2[i])
     }
-    console.log(conArr)
+    console.log("십진수로 들어온 배열끼리 비트연산하면? ",conArr)
     
     for (let i =0; i< n; i++) {
         ansArr.push(conArr[i].toString(2).padStart(n,0))
     }
-    console.log('비트 | 연산 결과 : ',ansArr)
-
-    let pickAllOne = /1/i;
-    let pickAllZero = /0/i;
-    
+    console.log('비트 | 연산 결과를 2진수로 나타내면? ',ansArr)
 
     // let answer = ansArr.map((el)=>{return el.replace(/1|0/g, (a) => +a ? '#' : ' ')})
-    // +a 해야만 되는 이유가 뭘까
+    // +a 해야만 되는 이유가 뭘까 truthy, falsy 에 대해서 좀더 알아봐야겠다. 
 
     let answer = ansArr.map((el)=>{return el.replace(/1/g, '#').replace(/0/g, ' ')})
+    console.log('1은 벽(#)으로 0은 길(공백)으로 바꿔주면 ↓')
 
     return answer;
 }
+
+// 코드 정리한것
+
+// function solution(n, arr1, arr2) {
+//     let conArr = []
+//     let ansArr = []
+//     for (let i =0; i< n; i++) {
+//         conArr.push(arr1[i] | arr2[i])
+//     }
+//     for (let i =0; i< n; i++) {
+//         ansArr.push(conArr[i].toString(2).padStart(n,0))
+//     }
+//     return ansArr.map((el)=>{return el.replace(/1|0/g, a => +a ? '#' : ' ')});
+// }
 
 
 console.log(solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]))
