@@ -8,13 +8,16 @@
 function solution(n) {
     let answer = 0;
     let arr  = []
+
+    // Assigning true value for prime num
     for(let i = 0; i<=n; i++){
         arr[i] = true
     }
     
-    let temp = []
-   
-    for(let j=2; j<n; j++){
+    // Acc to using Sieve of Eratosthenes 
+    // Reassigning false for mutiple of each prime number
+    // , which is not prime number
+    for(let j=2; j<=n; j++){
         if(arr[j] == true){
              let k = 2
         while(j*k<=n){
@@ -23,7 +26,8 @@ function solution(n) {
         }
       }      
     }
-    
+   
+   // Counting prime number 
    for(let u=2; u<=n; u++){
        if(arr[u] == true){
            answer++

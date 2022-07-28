@@ -37,7 +37,7 @@ function solution(n, lost, reserve) {
 	// 성공 -> 0.15ms, 29.8MB
 	// 두번째 풀이
 	var lost_check = [];
-	
+
 	// 정렬 안하면 13, 14 테스트 케이스 통과 X
 	// n = 5, lost = [2, 4], reserve = [3, 1] -> result = 5
 	// 두번째 풀이에서 왜 sort() 안하면 통과 안되는지 모르겠음.
@@ -68,6 +68,9 @@ function solution(n, lost, reserve) {
 			// console.log('back', reserve);
 		}
 	}
+
+	// =====================================================================
+	// 동욱님 풀이 참고하자
 
 	return answer;
 }
