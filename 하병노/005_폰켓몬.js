@@ -31,14 +31,11 @@
 function solution(nums) {
 
   let max = nums.length / 2 ;     // N/2마리의 폰켓몬을 선택하는 방법 중, 가장 많은 종류의 폰켓몬을 선택
-  console.log(max)
+  console.log('최대', max, '마리 선택 가능')
   let arr = [...new Set(nums)];   // 중복 값 제거
 
-  console.log(arr)
-  console.log(arr.length)
-
-  console.log(arr.length > max)
-
+  console.log('중복된 종류의 포켓몬을 모두 제거 하면', arr, '이고', `폰켓몬의 종류는 ${arr.length} 종 임을 알 수 있다.`)
+  console.log(`포켓몬의 종류(${arr.length}종) > 최대로 가져갈 수 있는 포켓몬수 N/2(${max}마리)  :  ` , arr.length > max)
 
   return arr.length > max ? max : arr.length  
 
@@ -58,10 +55,13 @@ function solution(nums) {
 
 // nums배열 안에 중복되는 폰켓몬들을 제거한 후
 // 중복 제거한 배열의 개수 >= N/2 라면 답은 N/2
-// 중복 제거한 배열의 개수  <  N/2 라면 답은 중복 제거한 배열의 개수가 되는 것입니다
+// 중복 제거한 배열의 개수  <  N/2 라면 답은 중복 제거한 배열의 개수가 되는 것
 
 }
 
 
 console.log('답1 : ',solution([3, 1, 2, 3]))
+console.log()
 console.log('답2 : ',solution([3,3,3,2,2,4]))
+console.log()
+console.log('답3 : ',solution([1,2,3,4,5,6,7,8,7,6,4,5,7,4,3,2,5,6,1,1,1,2,3,4,5,3]))
