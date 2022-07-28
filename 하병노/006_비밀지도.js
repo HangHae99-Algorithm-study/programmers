@@ -81,4 +81,8 @@ function solution(n, arr1, arr2) {
 // }
 
 
+// 한줄변태
+
+// const solution=(n,a,b)=>a.map((a,i)=>(a|b[i]).toString(2).padStart(n,0).replace(/0/g,' ').replace(/1/g,'#'))
+
 console.log(solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]))
