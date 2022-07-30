@@ -8,3 +8,5 @@
 |07/26|4|체육복|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/42862|
 |07/27|5|폰켓몬|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/1845|
 |07/28|6|[1차] 비밀지도|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/17681|
+|07/29|7|키패드 누르기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/67256|
+
