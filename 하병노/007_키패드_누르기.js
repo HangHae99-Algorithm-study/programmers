@@ -45,12 +45,11 @@
 
 //         } else if (numbers[i] === 3 |numbers[i] === 6 | numbers[i] === 9) {
 //             if (numbers[i] === 4) {
-//                 answer += keyPad[0][2][1]
+//                 answer += 'R'
 //             } else if (numbers[i] === 6) {
-//                 answer += keyPad[1][2][1]
+//                 answer += 'R'
 //             } else if (numbers[i] === 9) {
-//                 answer += keyPad[2][2][1]
-//             }
+//                 answer += 'R'
 
 //         } else {
 //             let r = findKey('*');
@@ -74,8 +73,8 @@
 
     
 
-//     return answer;
-// }
+// //     return answer;
+// // }
 
 
 
