@@ -57,10 +57,11 @@ function solution(n, arr1, arr2) {
     }
     console.log('비트 | 연산 결과를 2진수로 나타내면? ',ansArr)
 
-    // let answer = ansArr.map((el)=>{return el.replace(/1|0/g, (a) => +a ? '#' : ' ')})
+    let answer = ansArr.map((el)=>{return el.replace(/1|0/g, (a) => +a ? '#' : ' ')})
     // +a 해야만 되는 이유가 뭘까 truthy, falsy 에 대해서 좀더 알아봐야겠다. 
+    // 아하 숫자형으로 형변환을 한것이었다!!!!
 
-    let answer = ansArr.map((el)=>{return el.replace(/1/g, '#').replace(/0/g, ' ')})
+    // let answer = ansArr.map((el)=>{return el.replace(/1/g, '#').replace(/0/g, ' ')})
     console.log('1은 벽(#)으로 0은 길(공백)으로 바꿔주면 ↓')
 
     return answer;
@@ -81,8 +82,7 @@ function solution(n, arr1, arr2) {
 // }
 
 
-// 한줄변태
-
+// 한줄
 // const solution=(n,a,b)=>a.map((a,i)=>(a|b[i]).toString(2).padStart(n,0).replace(/0/g,' ').replace(/1/g,'#'))
 
 console.log(solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]))
