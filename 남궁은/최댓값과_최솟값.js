@@ -9,11 +9,16 @@ s에는 둘 이상의 정수가 공백으로 구분되어 있습니다.
 */
 
 const solution = (s) => {
+  // 빈 배열 선언
   let temp = [];
+  // 파라미터값을 공백으로 쪼갠 뒤, map 메서드로 정수화
   const result = s.split(' ').map((a) => Number(a));
+  // 오름차순 정렬
   const arr = result.sort((b, c) => b - c);
+  // 정렬된 배열의 가장 최솟값, 최댓값을 빈 배열에 푸쉬, .at(-1)
   temp.push(arr[0], arr[arr.length - 1]);
 
+  // join 메서드를 이용해 문자열 배열을 공백을 포함한 하나의 문자열화
   const answer = temp.join(' ');
 
   return answer;
