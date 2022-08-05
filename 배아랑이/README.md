@@ -12,3 +12,4 @@
 |07/30|8|[1차] 다트 게임|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/17682|
 |08/01|9|최댓값과 최솟값|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12939|
 |08/02|10|숫자의 표현|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12924|
+|08/5|11|크레인 인형뽑기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/64061|
