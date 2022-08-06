@@ -3,6 +3,8 @@
 
 function solution(board, moves) {
 	var answer = 0;
+
+	// 성공 -> 3.98ms, 33.2MB
 	var list = [];
 
 	for (let i = 0; i < moves.length; i++) {
@@ -22,7 +24,6 @@ function solution(board, moves) {
 		}
 		console.log(list);
 	}
-
 
 	return answer;
 }
