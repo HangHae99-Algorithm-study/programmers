@@ -20,19 +20,16 @@
 function solution(n) {
     var answer = 0;
     let sum;
-
     for (let i=1; i<=n; i++){
         sum = 0;
         for (let j=i; j<=n; j++){
             sum += j
-
             if (sum === n) {
                 answer++
                 break
             } else if (sum > n) {
                 break
             }
-
         }
     }
     return answer;
@@ -58,6 +55,7 @@ function expressions(num) {
 
 // 홀수일 경우 약수는 홀수만 있음
 // ex) 15의 약수 = 1,3,5,15
+
 
 
 
