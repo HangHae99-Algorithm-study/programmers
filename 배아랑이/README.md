@@ -14,3 +14,4 @@
 |08/02|10|숫자의 표현|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12924|
 |08/5|11|크레인 인형뽑기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/64061|
 |08/06|12|K번째 수|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/42748|
+|08/08|13|신고 결과 받기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/92334|
