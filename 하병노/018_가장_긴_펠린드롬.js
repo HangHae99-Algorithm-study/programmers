@@ -1,4 +1,5 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/12904?language=javascript
+// 레벨 3 문제
 
 function solution(s) {
   let len = s.length
