@@ -15,3 +15,7 @@
 |08/5|11|크레인 인형뽑기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/64061|
 |08/06|12|K번째 수|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/42748|
 |08/08|13|신고 결과 받기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/92334|
+|08/09|14|124의 나라|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12899|
+|08/10|15|2xN 타일링|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12900|
+|08/11|16|직사각형의 넓이|Programmers|Level 5|https://school.programmers.co.kr/learn/courses/30/lessons/12974|
+|08/12|17|가운데 글자 가져오기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/12903|
