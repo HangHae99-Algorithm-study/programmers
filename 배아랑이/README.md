@@ -19,3 +19,6 @@
 |08/10|15|2xN 타일링|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12900|
 |08/11|16|직사각형의 넓이|Programmers|Level 5|https://school.programmers.co.kr/learn/courses/30/lessons/12974|
 |08/12|17|가운데 글자 가져오기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/12903|
+|08/13|18|가장 긴 팬드린롬|Programmers|Level 3|https://school.programmers.co.kr/learn/courses/30/lessons/12904|
+|||||||
+|08/19|20|문자열 압축|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/60057|
