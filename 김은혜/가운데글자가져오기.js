@@ -8,6 +8,7 @@ function solution(s) {
     // 짝수일 경우
     answer = s[s.length / 2 - 1] + s[s.length / 2];
   } else {
+    //홀수일 경우
     answer = s[Math.floor(s.length / 2)];
   }
 
