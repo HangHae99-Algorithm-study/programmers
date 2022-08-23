@@ -20,5 +20,8 @@
 |08/11|16|직사각형의 넓이|Programmers|Level 5|https://school.programmers.co.kr/learn/courses/30/lessons/12974|
 |08/12|17|가운데 글자 가져오기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/12903|
 |08/13|18|가장 긴 팬드린롬|Programmers|Level 3|https://school.programmers.co.kr/learn/courses/30/lessons/12904|
-|||||||
+|08/13|19|가장 긴 팬린드롬|Programmers|Level 3|https://school.programmers.co.kr/learn/courses/30/lessons/12904|
 |08/19|20|문자열 압축|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/60057|
+|08/20|21|하노이의 탑|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12946|
+|08/22|22|피보나치 수|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12945|
+|08/23|23|최솟값 만들기|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12941|
