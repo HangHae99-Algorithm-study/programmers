@@ -13,6 +13,9 @@ function solution(s) {
 	var s_num = s.split(' ').map((item) => Number(item));
 	answer = Math.min(...s_num) + ' ' + Math.max(...s_num);
 
+	// 문자열에 바로 ... 사용해도 숫자로 사용 가능
+	answer = Math.min(...s) + ' ' + Math.max(...s);
+
 	return answer;
 }
 
