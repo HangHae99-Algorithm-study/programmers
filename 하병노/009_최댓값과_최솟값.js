@@ -8,7 +8,6 @@
 // 제한 조건
 // s에는 둘 이상의 정수가 공백으로 구분되어 있습니다.
 
-
 console.log(solution("1 2 3 4"))
 console.log(solution("-1 -2 -3 -4"))
 console.log(solution("-1 -1"))
