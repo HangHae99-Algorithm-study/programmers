@@ -10,12 +10,17 @@ function solution(id_list, report, k) {
     
     report.map((user)=>{
     const [user_id, report_id] = user.split(' ')
-    // if(!report_list[report_id].includes(user_id)){
-    console.log("Checkinng ", report_id)
-    console.log(report_list[report_id])
+    if(!report_list[report_id].includes(user_id))
+    {
+    console.log(report_list[report_id].includes(muzi))
+        // 
+
+    // if()
+    // console.log(report_list[report_id])
     // report_list[report_id].push(user_id)
         // console.log(user_id, report_id)
     }  
+    }
    )   
    return report_list
 }
