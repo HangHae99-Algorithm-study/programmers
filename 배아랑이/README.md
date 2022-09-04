@@ -25,3 +25,5 @@
 |08/20|21|하노이의 탑|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12946|
 |08/22|22|피보나치 수|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12945|
 |08/23|23|최솟값 만들기|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12941|
+|09/04|104|다음 큰 숫자|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12911|
+|09/04|105|행렬의 곱셈|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12949|
