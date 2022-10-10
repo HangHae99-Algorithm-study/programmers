@@ -17,7 +17,6 @@ function solution(s, n) {
           // Then jumps over one iteration in the loop
           continue;
       }
-      
       // If a text is uppercase or lowercase, assign a whole alphabet of it. 
       const upperOrLower = upper.includes(text)?upper:lower
       
@@ -31,10 +30,8 @@ function solution(s, n) {
            index -= upperOrLower.length
           
       }
-      
       // Appending an answer index among upperOrLower
       answer += upperOrLower[index]
-      
   }
   
    return answer;
