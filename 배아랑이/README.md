@@ -30,3 +30,4 @@
 |10/08|24|성격 유형 검사하기|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/118666|
 |10/08|25|옹알이|Programmers|Level 0|https://school.programmers.co.kr/learn/courses/30/lessons/120956|
 |10/09|26|숫자 짝꿍|Programmers|Level 1|https://school.programmers.co.kr/learn/courses/30/lessons/131128|
+|10/10|27|JadenCase 문자열 만들기|Programmers|Level 2|https://school.programmers.co.kr/learn/courses/30/lessons/12951|
