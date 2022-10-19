@@ -17,12 +17,13 @@ function solution(progresses, speeds) {
             
             answer[j] += 1;
             // 1. j= 0, answer[0] = 0 + 1 => answer = [1]
-            // 2. j= 0, answer[=] = 1 + 1 => answer = [2]
+            // 2. j= 0, answer[0] = 1 + 1 => answer = [2]
             
         }else {
-            // 3. i = 2, max days = days[2]: 9
+            // 3. i = 2, maxdays = days[2]: 9
             maxDay = days[i];
             
+            // 3, j = 1, answer[1] = [2,1]
             answer[++j] = 1;
         }
     }
